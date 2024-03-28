@@ -54,21 +54,21 @@ class HomeScreen extends StatelessWidget {
           ),
           SliverToBoxAdapter(
             child: SubHeaderWithTitle(
-              title: "Let's Go with Jakarta Tourist Pass",
+              title: AppLocalizations.of(context)!.placesTabTitle,
               press: () {},
-              buttonText: "View All",
+              buttonText: AppLocalizations.of(context)!.viewAllText,
               icon: Icons.location_city_rounded,
-              subtitle: "a place not to be missed",
+              subtitle: AppLocalizations.of(context)!.placesTabDesc,
             ),
           ),
           _buildPlaceItems(),
           SliverToBoxAdapter(
             child: SubHeaderWithTitle(
-              title: "Events in Jakarta",
+              title: AppLocalizations.of(context)!.eventsTabTitle,
               press: () {},
-              buttonText: "View All",
+              buttonText: AppLocalizations.of(context)!.viewAllText,
               icon: Icons.event_available,
-              subtitle: "don't miss the current events",
+              subtitle: AppLocalizations.of(context)!.eventsTabDesc,
             ),
           ),
           SliverToBoxAdapter(

@@ -85,7 +85,7 @@ class HomePlaceCard extends StatelessWidget {
                           borderRadius: BorderRadius.circular(100),
                         ),
                         child: Text(
-                          'Detail',
+                          AppLocalizations.of(context)!.detailButton,
                           textAlign: TextAlign.center,
                           style: AppFonts.descriptionSmall.copyWith(
                             color: Colors.white,

@@ -61,7 +61,7 @@ class HomeEventCard extends StatelessWidget {
                         borderRadius: BorderRadius.circular(100),
                       ),
                       child: Text(
-                        'More Information',
+                        AppLocalizations.of(context)!.moreInformation,
                         textAlign: TextAlign.center,
                         style: AppFonts.descriptionSmall.copyWith(
                           color: Colors.white,

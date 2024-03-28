@@ -44,8 +44,8 @@ class SubHeaderWithTitle extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(title,
-                style:
-                    AppFonts.headline2.copyWith(fontWeight: FontWeight.w700)),
+                style: AppFonts.headline2
+                    .copyWith(fontWeight: FontWeight.w700, fontSize: 15)),
             Text(subtitle,
                 style: AppFonts.headline2
                     .copyWith(fontWeight: FontWeight.w600, fontSize: 12)),

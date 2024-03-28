@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+export 'package:flutter_gen/gen_l10n/app_localizations.dart';
+export 'package:flutter_localizations/flutter_localizations.dart';
+
 const kGradientColor1 = Color(0xffff4747);
 const kGradientColor2 = Color(0xffFC9842);
 const kFieldFillColor = Color(0xffeaebe0);

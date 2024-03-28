@@ -71,7 +71,8 @@ class AccountAndBalance extends SliverPersistentHeaderDelegate {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        "Balance Account",
+                                        AppLocalizations.of(context)!
+                                            .userBalance,
                                         style: AppFonts.descriptionSmall,
                                       ),
                                       Text(
@@ -158,7 +159,7 @@ class AccountAndBalance extends SliverPersistentHeaderDelegate {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Good Morning,",
+                        Text(AppLocalizations.of(context)!.greetUserHome,
                             style: AppFonts.descriptionSmall.copyWith(
                                 color: Colors.white,
                                 fontSize: 20,
